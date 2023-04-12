@@ -12,6 +12,9 @@
         android:theme="@style/Theme.E03List"
         tools:targetApi="31">
         <activity
+            android:name=".REcyclerViewActivity"
+            android:exported="false" />
+        <activity
             android:name=".ListViewActivity"
             android:exported="false" />
         <activity
