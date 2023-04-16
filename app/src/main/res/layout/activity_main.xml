@@ -7,6 +7,22 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/btnRecyclerView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="?attr/colorButtonNormal"
+        android:onClick="btnListView2_clicked"
+        android:text="RecyclerView2"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRecyclerView1" />
+
+    <Button
         android:id="@+id/btnRecyclerView1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
