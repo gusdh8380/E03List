@@ -1,6 +1,4 @@
-package net.skhu;
-
-import androidx.appcompat.app.AppCompatActivity;
+package net.skhu;import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
